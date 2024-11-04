@@ -1,0 +1,167 @@
+.navbar-brand{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+.intro1{
+    background-color: #F8F9FA;
+    /* height: 700px; */
+    /* width: 50%; */
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 10%;
+}
+
+.intro1txt{
+    padding-top: 5%;
+    text-align: center;
+    font-size:x-large;
+    /* font-weight: bolder; */
+    color: #6f8c86;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.intro1hed{
+    color : #004D3F;
+    font-weight: bolder;
+    padding-top: 20%;
+    text-align: center;
+    font-size:800px;
+    font-family: "Patua One", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.intro2hed{
+    text-align: center;
+    padding-top: 25%;
+    font-family: "Patua One", serif;
+    font-weight: 300;
+    font-size:x-large;
+}
+
+.prt1{
+    color: #A9A9A9;
+}
+
+.prt2{
+    color: black;
+}
+
+.prt3{
+    color : #43c7a4;
+}
+
+/* Rounded rectangular button */
+.getStarted{
+    padding-left: 27%;
+    padding-top: 3%;
+    /* margin: 5%; */
+}
+.gsbutton {
+    margin-right: 8%;
+    border-radius: 25px; /* Higher value makes it more rounded */
+    padding: 10px 20px; /* Adjust for button size */
+    font-weight:400;
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #000000, #434343); /* Use 'background' for gradients */
+    border: none; /* Optional: remove the border for a cleaner look */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background 0.3s ease; /* Optional: add transition for hover effect */
+}
+
+.learnMore{
+    margin-right: 8%;
+    border-radius: 25px; /* Higher value makes it more rounded */
+    padding: 10px 20px; /* Adjust for button size */
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    background: linear-gradient(to bottom, #a4e2c2, #c1e9ee); /* Use 'background' for gradients */
+    border: none; /* Optional: remove the border for a cleaner look */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background 0.3s ease; /* Optional: add transition for hover effect */
+}
+
+/* Optional: Add a hover effect */
+.gsbutton:hover {
+    background: linear-gradient(to bottom, #434343, #000000); /* Reverse gradient on hover */
+}
+
+.intro1individualbuttons{
+    padding: 2%;
+    height: 50px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #e5eee9, #c1e9ee);
+}
+
+
+
+.intro2text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    padding-top: 5%;
+}
+
+#changingText1 {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes rollUp {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+}
+
+.roll {
+    animation: rollUp 0.9s ease;
+}
+
+/* dark green color in intro1txt */
+.drkgrn{
+    color : #004D3F;
+}
+
+/* background shade for intro 1 */
+.bgshadeforintro1{
+    /* padding:5%; */
+    border-top-right-radius: 40%;
+    border-bottom-right-radius: 10%;
+    background-image: linear-gradient(to right, #e7ebea, #cededd);
+    height: 700px;
+    padding: 10%;
+}
+
+/* intro1 singin login buttons */
+.intro1buttons{
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+/* intro1 individual buttons */
+.intro1individualbuttons{
+    border-color: #008073;
+    border-width: 3px;
+    background-color: #D4E1E0;
+    font-weight:500;
+}

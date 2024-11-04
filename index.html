@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmoDiary</title>
+
+    <!-- firebase -->
+     <script src="script.js" defer type = "module"></script>
+     <!-- end of firebase -->
+
+     <script src="scripts/textEnhancer.js" defer type = "module"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <!-- end of font -->
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">EmoDiary</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ContactUs</a>
+              </li>
+            </ul>
+
+            <ul class="navbar-nav ms-auto"> <!-- Added ms-auto to shift right -->
+                <li class="nav-item">
+                  <a class="nav-link google-login-btn" href="#" id="google-login-btn">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link google-login-btn" href="#" id="google-login-btn">Register</a>
+                </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+    <!-- End of NavBar -->
+
+
+    <!-- start of intro section 1 -->
+
+    <!-- <div class="intro1">
+        <div class="bgshadeforintro1">
+            
+            <div class="intro1hed">
+                <h1>EmoDiary!</h1>
+            </div>
+            <div class="intro1txt">
+                <p>"Capture Your Thoughts, Understand Your <span class = drkgrn>Emotions</span>"</p>
+                <p>"<span class = drkgrn>Write, Reflect,</span> and Uncover the <span class = drkgrn>Emotions</span> Behind Your Words"</p>
+            </div>
+
+            <div class = "intro1buttons">
+              <button class = "intro1individualbuttons" id = "google-login-btn" class = "google-button">Continue Writing</button>
+              <button class = "intro1individualbuttons">New Registration</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="intro2">
+      <div class="intro2hed">
+        <h1>Discover Your Emotions, Unlock Your Mind</h1>
+      </div>
+    </div> -->
+
+    <div class="container-fluid">
+      <div class="row">
+          <!-- Left Half: intro1 -->
+          <div class="col-md-6 intro1">
+              <div class="bgshadeforintro1">
+                  <div class="intro1hed">
+                      <h1>EmoDiary!</h1>
+                  </div>
+                  <div class="intro1txt">
+                      <p>"Capture Your Thoughts, Understand Your <span class="drkgrn">Emotions</span>"</p>
+                      <p>"<span class="drkgrn">Write, Reflect,</span> and Uncover the <span class="drkgrn">Emotions</span> Behind Your Words"</p>
+                  </div>
+                  <div class="intro1buttons">
+                      <button class="intro1individualbuttons google-login-btn" id="google-login-btn">Continue Writing</button>
+                      <button class="intro1individualbuttons google-login-btn" id="google-login-btn">New Registration</button>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Right Half: intro2 -->
+          <div class="col-md-6 intro2">
+              <div class="intro2hed">
+                  <h1><span class = "prt1">Discover Your Emotions</span> <span class = "prt2">Unlock Your</span> <span class = "prt3" id = "changingText1">Mind</span></h1>
+              </div>
+              <div class="intro2text">
+                  <p>Create your account and begin a journey of self-discovery and growth</p>
+                  <p>Start now to enhance your emotional insight and well-being.</p>
+                </div>
+                <div class="getStarted">
+                  <button type="button" class="gsbutton google-login-btn" id="google-login-btn">Get Started</button>
+                  <button type="button" class="learnMore ">Learn More</button>
+                </div>
+          </div>
+      </div>
+  </div>
+    <!-- End of intro section 1 -->
+    
+</body>
+</html>

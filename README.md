@@ -5,23 +5,23 @@ EmoDiary is a unique, AI-driven web application designed to help users reflect o
 
 **Key Features**
 
-**1	Personalized Emotional Insights:** EmoDiary is built with personalization in mind. Each user’s diary entries are processed individually to create custom emotional feedback and analysis. This personalized approach means your insights are unique to you, enhancing the relevance and value of each interaction.
+**1.	Personalized Emotional Insights:** EmoDiary is built with personalization in mind. Each user’s diary entries are processed individually to create custom emotional feedback and analysis. This personalized approach means your insights are unique to you, enhancing the relevance and value of each interaction.
 
-**2	Secure & Reliable Firebase Integration:** User data is securely managed and stored using Google Firebase, ensuring that only you have access to your personal entries. Firebase Authentication also provides seamless login support, giving you secure access to your entries across devices.
+**2.	Secure & Reliable Firebase Integration:** User data is securely managed and stored using Google Firebase, ensuring that only you have access to your personal entries. Firebase Authentication also provides seamless login support, giving you secure access to your entries across devices.
 
-**3	Advanced Machine Learning for Emotion & Toxicity Detection:** Using a Flask-based backend server, EmoDiary integrates pre-trained ML models to analyze the tone of your writing and identify toxic or negative language patterns. This helps users become aware of their emotional state and language patterns in a constructive way.
+**3.	Advanced Machine Learning for Emotion & Toxicity Detection:** Using a Flask-based backend server, EmoDiary integrates pre-trained ML models to analyze the tone of your writing and identify toxic or negative language patterns. This helps users become aware of their emotional state and language patterns in a constructive way.
 
-**4	Interactive Data Visualization:** EmoDiary offers beautiful, interactive visualizations to track your emotional progress. These charts and graphs allow you to visualize your emotional trends over time, providing an engaging and insightful look into your personal growth journey.
+**4.	Interactive Data Visualization:** EmoDiary offers beautiful, interactive visualizations to track your emotional progress. These charts and graphs allow you to visualize your emotional trends over time, providing an engaging and insightful look into your personal growth journey.
 
-**5	User-Friendly Interface:** The interface is designed for simplicity and ease of use, ensuring that users of all backgrounds can seamlessly navigate the application. Each feature is crafted with user experience in mind, offering an inviting and intuitive journaling experience.
+**5.	User-Friendly Interface:** The interface is designed for simplicity and ease of use, ensuring that users of all backgrounds can seamlessly navigate the application. Each feature is crafted with user experience in mind, offering an inviting and intuitive journaling experience.
 
 **EmoDiary combines the best of web technologies to deliver a powerful experience:**
 
-**1	Frontend:** Built with responsive design principles and interactive components for seamless user engagement.
+**1.	Frontend:** Built with responsive design principles and interactive components for seamless user engagement.
 
-**2	Backend:** Powered by Flask, with robust machine learning models pre-trained to deliver accurate emotional analysis.
+**2.	Backend:** Powered by Flask, with robust machine learning models pre-trained to deliver accurate emotional analysis.
 
-**3	Database & Authentication:** Firebase is used for both secure storage of entries and Google-based authentication, ensuring data privacy and access security.
+**3.	Database & Authentication:** Firebase is used for both secure storage of entries and Google-based authentication, ensuring data privacy and access security.
 
 Whether you’re seeking to gain more emotional awareness, track your mental well-being, or better understand patterns in your daily life, EmoDiary is crafted to be a trustworthy companion on your journey to self-awareness and personal growth.
 
@@ -50,7 +50,7 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 
 **Home Page Content :**
 
-<img width="1381" alt="image" src="https://github.com/user-attachments/assets/e8f3d95b-49e5-40e9-9a3a-c355bca89d0a">
+![image](https://github.com/user-attachments/assets/2e6e8dd5-f518-417a-bd3d-95c9f9d73664)
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/04bde867-f0ec-457f-a144-7b0a6e0abb05">
 <img width="1419" alt="image" src="https://github.com/user-attachments/assets/6abd310d-1094-4259-8f6e-ee59c19c5100">
 <img width="1433" alt="image" src="https://github.com/user-attachments/assets/14fea4e1-f1e8-4a31-934e-9899db31a719">
@@ -58,7 +58,7 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 
 **Footer :** 
 
-<img width="1405" alt="image" src="https://github.com/user-attachments/assets/4555d024-e2cd-4bbb-b862-0f22d07f22ee">
+![image](https://github.com/user-attachments/assets/602285c8-c4d8-4bdb-96e5-2695421e71ca)
 
 **About Us Page :** 
 

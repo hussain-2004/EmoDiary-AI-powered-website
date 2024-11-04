@@ -29,12 +29,15 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 ------------------------
 
 **HomePage :**
+
 <img width="1436" alt="image" src="https://github.com/user-attachments/assets/08a2d411-f1bf-493e-afc0-a4f7826e3cd5">
 
 **Profile Page :**
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/7f4b8d62-ddce-4838-ad39-4fe9ffb7df43">
 
 **Analytics Dashboard :**
+
 <img width="1438" alt="image" src="https://github.com/user-attachments/assets/ddde956a-9599-4379-b5f3-4d0b21ab5244">
 <img width="1436" alt="image" src="https://github.com/user-attachments/assets/f5a2f516-5bcb-49d9-8b3b-66941d395746">
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/c32cd9a2-1f11-414a-a1c1-0bc85ddd5029">
@@ -42,22 +45,27 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 <img width="1438" alt="image" src="https://github.com/user-attachments/assets/288a21c6-8d3e-4746-a749-014213128ba2">
 
 **User Progress Dashboard :**
+
 <img width="1433" alt="image" src="https://github.com/user-attachments/assets/f7a927b6-1db5-4c85-8497-b263b0ff3755">
 
-Home Page Content : 
-<img width="1433" alt="image" src="https://github.com/user-attachments/assets/39d56ab0-4087-4915-be5f-c61614b28593">
+**Home Page Content :**
+
+<img width="1381" alt="image" src="https://github.com/user-attachments/assets/e8f3d95b-49e5-40e9-9a3a-c355bca89d0a">
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/04bde867-f0ec-457f-a144-7b0a6e0abb05">
 <img width="1419" alt="image" src="https://github.com/user-attachments/assets/6abd310d-1094-4259-8f6e-ee59c19c5100">
 <img width="1433" alt="image" src="https://github.com/user-attachments/assets/14fea4e1-f1e8-4a31-934e-9899db31a719">
 <img width="1405" alt="image" src="https://github.com/user-attachments/assets/a822732f-faf1-4b7d-9cce-5f8b6f1fb606">
 
 **Footer :** 
+
 <img width="1405" alt="image" src="https://github.com/user-attachments/assets/4555d024-e2cd-4bbb-b862-0f22d07f22ee">
 
 **About Us Page :** 
+
 <img width="1432" alt="image" src="https://github.com/user-attachments/assets/a32682a8-b2fb-4790-9f5f-d1e7db5d2fa6">
 
 **Contact Us Page :**
+
 <img width="1381" alt="image" src="https://github.com/user-attachments/assets/33eb367a-6836-4f7c-986f-1b406ee0d1b5">
 
 

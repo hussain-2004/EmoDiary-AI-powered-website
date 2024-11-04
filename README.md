@@ -6,15 +6,21 @@ EmoDiary is a unique, AI-driven web application designed to help users reflect o
 **Key Features**
 
 **1	Personalized Emotional Insights:** EmoDiary is built with personalization in mind. Each user’s diary entries are processed individually to create custom emotional feedback and analysis. This personalized approach means your insights are unique to you, enhancing the relevance and value of each interaction.
+
 **2	Secure & Reliable Firebase Integration:** User data is securely managed and stored using Google Firebase, ensuring that only you have access to your personal entries. Firebase Authentication also provides seamless login support, giving you secure access to your entries across devices.
+
 **3	Advanced Machine Learning for Emotion & Toxicity Detection:** Using a Flask-based backend server, EmoDiary integrates pre-trained ML models to analyze the tone of your writing and identify toxic or negative language patterns. This helps users become aware of their emotional state and language patterns in a constructive way.
+
 **4	Interactive Data Visualization:** EmoDiary offers beautiful, interactive visualizations to track your emotional progress. These charts and graphs allow you to visualize your emotional trends over time, providing an engaging and insightful look into your personal growth journey.
+
 **5	User-Friendly Interface:** The interface is designed for simplicity and ease of use, ensuring that users of all backgrounds can seamlessly navigate the application. Each feature is crafted with user experience in mind, offering an inviting and intuitive journaling experience.
 
 **EmoDiary combines the best of web technologies to deliver a powerful experience:**
 
 **1	Frontend:** Built with responsive design principles and interactive components for seamless user engagement.
+
 **2	Backend:** Powered by Flask, with robust machine learning models pre-trained to deliver accurate emotional analysis.
+
 **3	Database & Authentication:** Firebase is used for both secure storage of entries and Google-based authentication, ensuring data privacy and access security.
 
 Whether you’re seeking to gain more emotional awareness, track your mental well-being, or better understand patterns in your daily life, EmoDiary is crafted to be a trustworthy companion on your journey to self-awareness and personal growth.

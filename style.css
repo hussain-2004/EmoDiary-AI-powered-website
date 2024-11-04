@@ -118,6 +118,21 @@
     position: relative;
 }
 
+.yourData{
+
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 25px; /* Higher value makes it more rounded */
+    padding: 10px 20px; /* Adjust for button size */
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(153, 144, 144);
+    background: white; /* Use 'background' for gradients */
+    border: none; /* Optional: remove the border for a cleaner look */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background 0.3s ease; /* Optional: add transition for hover effect */
+}
+
 @keyframes rollUp {
     0% {
         transform: translateY(100%);

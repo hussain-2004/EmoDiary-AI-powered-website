@@ -282,6 +282,61 @@ async function fetchDiaryData() {
             
         } else {
             console.log("No diary entries found for the user.");
+            
+            // Generate dummy entries
+            const dummyDiaries = Array.from({ length: 5 }, (_, i) => ({
+                date: new Date(Date.now() - i * 86400000).toISOString(), // Create dates for the past 5 days
+                diary: `This is a sample diary entry number ${i + 1} for visualization purposes.`,
+                predictions: {
+                    emotion:[0,1,2,3,4,5][Math.floor(Math.random()*6)],
+                    financial_emotion_prediction: ["positive", "negative", "neutral"][Math.floor(Math.random() * 3)],
+                    mental_health_prediction: ["Normal", "Depression", "Anxiety"][Math.floor(Math.random() * 3)],
+                    toxic_language: Math.random() > 0.7 ? "1" : "0",
+                    tweet_emotion_prediction : ["neutral","love","happiness","worry","sadness","surprise","fun","enthusiasm"][Math.floor(Math.random()*8)]
+                }
+            }));
+
+            // Save dummy entries to Firestore
+            await setDoc(userDocRef, {
+                userName: user.displayName,
+                userEmail: user.email,
+                diaries: dummyDiaries
+            });
+
+            // Render visualizations with dummy data
+            renderFinancialEmotionChart(dummyDiaries);
+            const mentalHealthCounts = dummyDiaries.reduce((acc, entry) => {
+                const emotion = entry.predictions.mental_health_prediction;
+                acc[emotion] = (acc[emotion] || 0) + 1;
+                return acc;
+            }, {});
+            renderMentalHealthChart(mentalHealthCounts);
+
+            // Toxic language chart
+            const toxicCounts = dummyDiaries.reduce((acc, entry) => {
+                const isToxic = entry.predictions.toxic_language;
+                acc[isToxic] = (acc[isToxic] || 0) + 1;
+                return acc;
+            }, { 0: 0, 1: 0 });
+            renderToxicityChart(toxicCounts);
+
+            // Financial emotion chart
+            const financialCounts = dummyDiaries.reduce((acc, entry) => {
+                const emotion = entry.predictions.financial_emotion_prediction;
+                acc[emotion] = (acc[emotion] || 0) + 1;
+                return acc;
+            }, { positive: 0, negative: 0, neutral: 0 });
+            renderFinancialEmotionBarChart(financialCounts);
+
+            // Emotion radial chart
+            const emotionCounts = countEmotions(dummyDiaries);
+            renderEmotionRadialChart(emotionCounts);
+
+            // Word cloud
+            let lastEntryText = getLastDiaryText(dummyDiaries, 10000); // Use the dummy text
+            renderWordCloudFromText(lastEntryText);
+
+
         }
     } else {
         alert("User is not logged in.");

@@ -68,6 +68,25 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 
 <img width="1381" alt="image" src="https://github.com/user-attachments/assets/33eb367a-6836-4f7c-986f-1b406ee0d1b5">
 
+**How to run this project in your machine?**
+Make sure you have pip installed in your system. Once that is done, open the project folder and also make sure to ensure that Python 3 and the venv module are installed on your system to use the python3 -m venv venv command
+
+**Set up a virtual environment to isolate the project’s dependencies:**
+`python3 -m venv venv`
+
+**Activate the virtual environment:**
+`source venv/bin/activate`
+
+**Install Dependencies from requirements.txt :**
+`pip install -r requirements.txt`
+
+**Make sure to run the server locally:**
+`python server/app.py`
+
+Now, You can start using the website :)
+
+
+
 
 
 

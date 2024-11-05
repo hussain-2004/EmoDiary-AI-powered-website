@@ -161,7 +161,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 // Prepare the URL for the POST request
-                const url = `http://127.0.0.1:5001/predict`;
+                // const url = `http://127.0.0.1:5001/predict`;
+                const url = `http://3.90.21.228:5001/predict`;
 
                 try {
                     // Send request to server using POST method with JSON body

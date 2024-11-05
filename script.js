@@ -650,8 +650,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (user) {
             fetchDiaryData();  // Fetch and display diary data
         } else {
-            alert("Please log in! Redirecting to login page.");
-            window.location.href = "index.html";  // Redirect to login page if not authenticated
+            // alert("Please log in! Redirecting to login page.");
+            // window.location.href = "index.html";  // Redirect to login page if not authenticated
         }
     });
 });

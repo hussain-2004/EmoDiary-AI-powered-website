@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (user) {
             await fetchProgressData(user.uid);
         } else {
-            alert("Please log in to view your progress.");
-            window.location.href = "index.html";
+            // alert("Please log in to view your progress.");
+            // window.location.href = "index.html";
         }
     });
 });

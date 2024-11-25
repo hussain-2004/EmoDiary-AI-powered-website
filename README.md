@@ -34,7 +34,15 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 
 **Profile Page :**
 
-<img width="1440" alt="image" src="https://github.com/user-attachments/assets/7f4b8d62-ddce-4838-ad39-4fe9ffb7df43">
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/b21b7354-7122-435f-946d-a679eabe7662">
+
+
+**Latest Vibes Pages (Latest diary insights) :**
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/e54a0097-8c9a-484c-a17c-fb3e5284d320">
+
+**Performance Snapshot (Which includes Overall Performance) :**
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/2fa34006-5ead-439b-a05f-4000e78b9cf7">
+
 
 **Analytics Dashboard :**
 
@@ -44,9 +52,6 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 <img width="1438" alt="image" src="https://github.com/user-attachments/assets/0302f6d8-f808-42e4-8a24-be2f6cd41699">
 <img width="1438" alt="image" src="https://github.com/user-attachments/assets/288a21c6-8d3e-4746-a749-014213128ba2">
 
-**User Progress Dashboard :**
-
-<img width="1433" alt="image" src="https://github.com/user-attachments/assets/f7a927b6-1db5-4c85-8497-b263b0ff3755">
 
 **Home Page Content :**
 

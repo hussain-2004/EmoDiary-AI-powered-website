@@ -2,15 +2,15 @@
 import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-
+import config from './config.js';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCgcZHAPfuxzyuslojrsIWpP4rqnbu4P8g",
+    apiKey: config.FIREBASE_AUTH_KEY,
     authDomain: "emodiary-backend-support.firebaseapp.com",
     projectId: "emodiary-backend-support",
     storageBucket: "emodiary-backend-support.firebasestorage.app",
-    messagingSenderId: "1048969605282",
-    appId: "1:1048969605282:web:9b26c84361983e7d4567fb",
+    messagingSenderId: config.mSId,
+    appId: config.aId,
   };
 
 // Initialize Firebase
@@ -96,24 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Google login function on index.html page
 document.addEventListener("DOMContentLoaded", () => {
-    // const googleLogin = document.getElementById("google-login-btn");
-    // const googleLogin = document.querySelectorAll("google-login-btn");
-    // const googleLogin = document.getElementsByClassName("google-login-btn")
-    
-    // if (googleLogin) {
-    //     googleLogin.addEventListener("click", function () {
-    //         signInWithPopup(auth, provider)
-    //             .then((result) => {
-    //                 const user = result.user;
-    //                 // Redirect to diary page after successful login
-    //                 window.location.href = "pages/diary.html";
-    //             })
-    //             .catch((error) => {
-    //                 console.error("Error during login:", error.code, error.message);
-    //                 alert("Login failed: " + error.message);
-    //             });
-    //     });
-    // }
 
     const googleLoginButtons = document.getElementsByClassName("google-login-btn");
 
@@ -161,8 +143,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 // Prepare the URL for the POST request
-                // const url = `http://127.0.0.1:5001/predict`;
-                const url = `http://54.227.154.169:5001/predict`;
+                const url = config.backendServer;
+                // const url = `http://54.227.154.169:5001/predict`;
 
                 try {
                     // Send request to server using POST method with JSON body
@@ -203,8 +185,6 @@ document.addEventListener("DOMContentLoaded", () => {
                             diaries: [diaryEntry]
                         });
                     }
-
-                    alert("Diary entry successfully saved!");
                 } catch (error) {
                     console.error("Error:", error);
                     alert("Failed to save diary entry: " + error.message);

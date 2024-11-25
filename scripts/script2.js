@@ -1,23 +1,14 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import { getFirestore, doc, getDoc, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 import { getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
-
-// Firebase configuration for your web app
-// const firebaseConfig = {
-//     apiKey: "AIzaSyAvagTzmvVNr-HMkayDybbDxG19AMPSBPE",
-//     authDomain: "login-authentication-37d3f.firebaseapp.com",
-//     projectId: "login-authentication-37d3f",
-//     storageBucket: "login-authentication-37d3f.appspot.com",
-//     messagingSenderId: "869768879061",
-//     appId: "1:869768879061:web:7262933af3a682debf7b5c"
-// };
+import config from '../config.js';
 const firebaseConfig = {
-    apiKey: "AIzaSyCgcZHAPfuxzyuslojrsIWpP4rqnbu4P8g",
+    apiKey: config.FIREBASE_AUTH_KEY,
     authDomain: "emodiary-backend-support.firebaseapp.com",
     projectId: "emodiary-backend-support",
     storageBucket: "emodiary-backend-support.firebasestorage.app",
-    messagingSenderId: "1048969605282",
-    appId: "1:1048969605282:web:9b26c84361983e7d4567fb",
+    messagingSenderId: config.mSId,
+    appId: config.aId,
   };
 
 const app = initializeApp(firebaseConfig);

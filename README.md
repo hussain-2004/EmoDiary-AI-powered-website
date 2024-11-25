@@ -85,14 +85,15 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 Make Sure to Create and Use a config.js File for API Keys or Configuration Variables
 
 Follow these steps to set up and use a config.js file in your project:
+
 	1.	Rename **sample_config.js** file to **config.js**:
+ 
 	2.	Add your configuration variables in config.js:
-	     •	Make sure to add your google auth configuration api keys.
-       • Also add backend server link.
-       • Refer sample_config.js for more clarity.
+	            • Make sure to add your google auth configuration api keys and backend server url.
+	            • Refer sample_config.js for more clarity.
 
  
-Make sure you have pip installed in your system. Once that is done, open the project folder and also make sure to ensure that Python 3 and the venv module are installed on your system to use the python3 -m venv venv command.
+Make sure you have pip installed in your system. Once that is done, open the project folder and also ensure that Python 3 and the venv module are installed on your system to use the python3 -m venv venv command.
 
 **Set up a virtual environment to isolate the project’s dependencies:**
 

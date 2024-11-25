@@ -32,15 +32,21 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 
 <img width="1436" alt="image" src="https://github.com/user-attachments/assets/08a2d411-f1bf-493e-afc0-a4f7826e3cd5">
 
+
 **Profile Page :**
 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/b21b7354-7122-435f-946d-a679eabe7662">
 
 
+
 **Latest Vibes Pages (Latest diary insights) :**
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/e54a0097-8c9a-484c-a17c-fb3e5284d320">
 
+
+
 **Performance Snapshot (Which includes Overall Performance) :**
+
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/2fa34006-5ead-439b-a05f-4000e78b9cf7">
 
 
@@ -51,6 +57,7 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/c32cd9a2-1f11-414a-a1c1-0bc85ddd5029">
 <img width="1438" alt="image" src="https://github.com/user-attachments/assets/0302f6d8-f808-42e4-8a24-be2f6cd41699">
 <img width="1438" alt="image" src="https://github.com/user-attachments/assets/288a21c6-8d3e-4746-a749-014213128ba2">
+
 
 
 **Home Page Content :**
@@ -75,6 +82,16 @@ Whether you’re seeking to gain more emotional awareness, track your mental wel
 
 **How to run this project in your machine?**
 -------------------------------------------------
+Make Sure to Create and Use a config.js File for API Keys or Configuration Variables
+
+Follow these steps to set up and use a config.js file in your project:
+	1.	Rename **sample_config.js** file to **config.js**:
+	2.	Add your configuration variables in config.js:
+	     •	Make sure to add your google auth configuration api keys.
+       • Also add backend server link.
+       • Refer sample_config.js for more clarity.
+
+ 
 Make sure you have pip installed in your system. Once that is done, open the project folder and also make sure to ensure that Python 3 and the venv module are installed on your system to use the python3 -m venv venv command.
 
 **Set up a virtual environment to isolate the project’s dependencies:**

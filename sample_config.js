@@ -7,3 +7,4 @@ const config = {
 export default config;
 
 // Replace your api keys and rename this file as config.js
+// if you run the server locally using 'python server/app.py' in your machine, The url will be : `http://127.0.0.1:5001/predict`

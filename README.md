@@ -25,6 +25,14 @@ EmoDiary is a unique, AI-driven web application designed to help users reflect o
 
 Whether you’re seeking to gain more emotional awareness, track your mental well-being, or better understand patterns in your daily life, EmoDiary is crafted to be a trustworthy companion on your journey to self-awareness and personal growth.
 
+**Demonstration**
+------------------------
+
+
+https://github.com/user-attachments/assets/a2fdf4bf-af7c-43bb-894b-cb16b42f7917
+
+
+
 **Screenshots**
 ------------------------
 
